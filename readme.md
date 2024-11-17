@@ -11,7 +11,7 @@ This library provides Go implementations of several lock algorithms, including:
 - Ticket Lock
 - MCS Lock
 - CLH Lock
-- (Add other locks you've implemented)
+- TBD..
 
 The goal of this project is to explore and learn about different synchronization techniques in Go,
 based on the algorithms presented in the libslock library.
