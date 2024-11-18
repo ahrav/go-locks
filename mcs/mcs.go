@@ -25,9 +25,6 @@
 // Each goroutine must maintain its own QNode instance. A single QNode should not be
 // used concurrently by multiple goroutines. For scenarios requiring multiple locks,
 // use NewLockArray and NewQNodeArray to efficiently manage multiple lock instances.
-//
-// Reference: John M. Mellor-Crummey and Michael L. Scott. 1991. Algorithms for scalable
-// synchronization on shared-memory multiprocessors. ACM Trans. Comput. Syst. 9, 1, 21–65.
 package mcs
 
 import (
