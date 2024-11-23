@@ -10,6 +10,7 @@ This library provides Go implementations of several lock algorithms, including:
 
 - Ticket Lock
 - MCS Lock
+- A Lock (Array Lock)
 - CLH Lock
 - TBD..
 
